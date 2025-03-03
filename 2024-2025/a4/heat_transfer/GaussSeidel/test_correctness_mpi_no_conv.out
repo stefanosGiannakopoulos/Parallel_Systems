@@ -1,0 +1,2 @@
+GaussSeidelSOR X 256 Y 256 Iter 700 Time 0.637213 midpoint 1.418996
+GaussSeidelSOR X 256 Y 256 Px 8 Py 4 Iter 701 ComputationTime 0.017320 TotalTime 0.206262 midpoint 1.418996

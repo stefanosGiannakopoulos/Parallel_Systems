@@ -1,0 +1,9 @@
+Running x.serial with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Running x.serial with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Running x.serial with Threads=1, List Size=1024, Workload=20 40 40, MT_CONF=0
+Running x.serial with Threads=1, List Size=1024, Workload=0 50 50, MT_CONF=0
+Running x.serial with Threads=1, List Size=8192, Workload=100 0 0, MT_CONF=0
+Running x.serial with Threads=1, List Size=8192, Workload=80 10 10, MT_CONF=0
+Running x.serial with Threads=1, List Size=8192, Workload=20 40 40, MT_CONF=0
+Running x.serial with Threads=1, List Size=8192, Workload=0 50 50, MT_CONF=0
+All experiments completed. Summary saved to results/summary.out.

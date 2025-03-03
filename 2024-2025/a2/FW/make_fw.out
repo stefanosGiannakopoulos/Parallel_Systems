@@ -1,0 +1,1 @@
+gcc util.o fw_tiled_mod.c -o fw_tiled_mod -Wall -O3 -Wno-unused-variable -fopenmp

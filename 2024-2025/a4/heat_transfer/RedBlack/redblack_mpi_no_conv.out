@@ -1,0 +1,45 @@
+Iteration: 1, Size: 2048, Threads: 1
+GaussSeidelSOR X 2048 Y 2048 Px 1 Py 1 Iter 256 ComputationTime 18.609022 TotalTime 18.609736 midpoint 0.000000
+Iteration: 1, Size: 2048, Threads: 2
+GaussSeidelSOR X 2048 Y 2048 Px 1 Py 2 Iter 256 ComputationTime 9.316669 TotalTime 9.574308 midpoint 0.000000
+Iteration: 1, Size: 2048, Threads: 4
+GaussSeidelSOR X 2048 Y 2048 Px 2 Py 2 Iter 256 ComputationTime 4.661596 TotalTime 4.878926 midpoint 0.000000
+Iteration: 1, Size: 2048, Threads: 8
+GaussSeidelSOR X 2048 Y 2048 Px 2 Py 4 Iter 256 ComputationTime 2.331937 TotalTime 2.568244 midpoint 0.000000
+Iteration: 1, Size: 2048, Threads: 16
+GaussSeidelSOR X 2048 Y 2048 Px 4 Py 4 Iter 256 ComputationTime 1.635069 TotalTime 1.734197 midpoint 0.000000
+Iteration: 1, Size: 2048, Threads: 32
+GaussSeidelSOR X 2048 Y 2048 Px 4 Py 8 Iter 256 ComputationTime 0.727004 TotalTime 0.813825 midpoint 0.000000
+Iteration: 1, Size: 2048, Threads: 64
+GaussSeidelSOR X 2048 Y 2048 Px 8 Py 8 Iter 256 ComputationTime 0.125420 TotalTime 0.289212 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 1
+GaussSeidelSOR X 4096 Y 4096 Px 1 Py 1 Iter 256 ComputationTime 74.557350 TotalTime 74.558207 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 2
+GaussSeidelSOR X 4096 Y 4096 Px 1 Py 2 Iter 256 ComputationTime 37.287300 TotalTime 37.692615 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 4
+GaussSeidelSOR X 4096 Y 4096 Px 2 Py 2 Iter 256 ComputationTime 18.660992 TotalTime 18.960886 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 8
+GaussSeidelSOR X 4096 Y 4096 Px 2 Py 4 Iter 256 ComputationTime 9.395636 TotalTime 9.660678 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 16
+GaussSeidelSOR X 4096 Y 4096 Px 4 Py 4 Iter 256 ComputationTime 7.433557 TotalTime 7.656227 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 32
+GaussSeidelSOR X 4096 Y 4096 Px 4 Py 8 Iter 256 ComputationTime 7.250152 TotalTime 7.489799 midpoint 0.000000
+Iteration: 1, Size: 4096, Threads: 64
+GaussSeidelSOR X 4096 Y 4096 Px 8 Py 8 Iter 256 ComputationTime 6.340924 TotalTime 6.686343 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 1
+GaussSeidelSOR X 6144 Y 6144 Px 1 Py 1 Iter 256 ComputationTime 167.382343 TotalTime 167.383226 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 2
+GaussSeidelSOR X 6144 Y 6144 Px 1 Py 2 Iter 256 ComputationTime 83.789585 TotalTime 84.373434 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 4
+GaussSeidelSOR X 6144 Y 6144 Px 2 Py 2 Iter 256 ComputationTime 41.920746 TotalTime 42.305108 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 8
+GaussSeidelSOR X 6144 Y 6144 Px 2 Py 4 Iter 256 ComputationTime 21.131719 TotalTime 21.459413 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 16
+GaussSeidelSOR X 6144 Y 6144 Px 4 Py 4 Iter 256 ComputationTime 16.751535 TotalTime 17.049169 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 32
+GaussSeidelSOR X 6144 Y 6144 Px 4 Py 8 Iter 256 ComputationTime 16.972428 TotalTime 17.289543 midpoint 0.000000
+Iteration: 1, Size: 6144, Threads: 64
+--------------------------------------------------------------------------
+mpirun noticed that process rank 15 with PID 32504 on node clone10 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+4 total processes killed (some possibly by mpirun during cleanup)

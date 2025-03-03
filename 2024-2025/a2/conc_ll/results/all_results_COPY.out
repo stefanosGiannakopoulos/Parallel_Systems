@@ -1,0 +1,2676 @@
+Experiment Results
+===================
+Running x.cgl with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1421.57
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1334.26
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1358.21
+-------------------
+Running x.cgl with Threads=8, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1209.75
+-------------------
+Running x.cgl with Threads=16, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 745.60
+-------------------
+Running x.cgl with Threads=32, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 602.84
+-------------------
+Running x.cgl with Threads=64, List Size=1024, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 410.00
+-------------------
+Running x.cgl with Threads=128, List Size=1024, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 223.63
+-------------------
+Running x.cgl with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1988.73
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=80 10 10, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1666.32
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 871.42
+-------------------
+Running x.cgl with Threads=8, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 358.12
+-------------------
+Running x.cgl with Threads=16, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Running x.cgl with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1447.53
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1367.91
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Running x.cgl with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1499.09
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1381.83
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1337.70
+-------------------
+Running x.cgl with Threads=8, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1238.44
+-------------------
+Running x.cgl with Threads=16, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 793.94
+-------------------
+Running x.cgl with Threads=32, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 587.89
+-------------------
+Running x.cgl with Threads=64, List Size=1024, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 345.20
+-------------------
+Running x.cgl with Threads=128, List Size=1024, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 248.33
+-------------------
+Running x.cgl with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1992.17
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=80 10 10, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1695.25
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 871.85
+-------------------
+Running x.cgl with Threads=8, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 337.40
+-------------------
+Running x.cgl with Threads=16, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 273.21
+-------------------
+Running x.cgl with Threads=32, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 278.73
+-------------------
+Running x.cgl with Threads=64, List Size=1024, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 112.79
+-------------------
+Running x.cgl with Threads=128, List Size=1024, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 56.48
+-------------------
+Running x.cgl with Threads=1, List Size=1024, Workload=20 40 40, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1550.13
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=20 40 40, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1355.18
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 695.80
+-------------------
+Running x.cgl with Threads=8, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 300.15
+-------------------
+Running x.cgl with Threads=16, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 342.87
+-------------------
+Running x.cgl with Threads=32, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 338.74
+-------------------
+Running x.cgl with Threads=64, List Size=1024, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 136.53
+-------------------
+Running x.cgl with Threads=128, List Size=1024, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 49.80
+-------------------
+Running x.cgl with Threads=1, List Size=1024, Workload=0 50 50, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1470.02
+-------------------
+Running x.cgl with Threads=2, List Size=1024, Workload=0 50 50, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1248.60
+-------------------
+Running x.cgl with Threads=4, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 719.40
+-------------------
+Running x.cgl with Threads=8, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 304.04
+-------------------
+Running x.cgl with Threads=16, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 175.37
+-------------------
+Running x.cgl with Threads=32, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 322.25
+-------------------
+Running x.cgl with Threads=64, List Size=1024, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 143.00
+-------------------
+Running x.cgl with Threads=128, List Size=1024, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 48.18
+-------------------
+Running x.cgl with Threads=1, List Size=8192, Workload=100 0 0, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 153.18
+-------------------
+Running x.cgl with Threads=2, List Size=8192, Workload=100 0 0, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 136.76
+-------------------
+Running x.cgl with Threads=4, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 128.93
+-------------------
+Running x.cgl with Threads=8, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 133.37
+-------------------
+Running x.cgl with Threads=16, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 126.11
+-------------------
+Running x.cgl with Threads=32, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 128.25
+-------------------
+Running x.cgl with Threads=64, List Size=8192, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 64.06
+-------------------
+Running x.cgl with Threads=128, List Size=8192, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 32.84
+-------------------
+Running x.cgl with Threads=1, List Size=8192, Workload=80 10 10, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 74.15
+-------------------
+Running x.cgl with Threads=2, List Size=8192, Workload=80 10 10, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 72.74
+-------------------
+Running x.cgl with Threads=4, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 69.34
+-------------------
+Running x.cgl with Threads=8, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 49.29
+-------------------
+Running x.cgl with Threads=16, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 41.03
+-------------------
+Running x.cgl with Threads=32, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 41.86
+-------------------
+Running x.cgl with Threads=64, List Size=8192, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 18.78
+-------------------
+Running x.cgl with Threads=128, List Size=8192, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 11.12
+-------------------
+Running x.cgl with Threads=1, List Size=8192, Workload=20 40 40, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 86.00
+-------------------
+Running x.cgl with Threads=2, List Size=8192, Workload=20 40 40, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 83.15
+-------------------
+Running x.cgl with Threads=4, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 74.65
+-------------------
+Running x.cgl with Threads=8, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 48.91
+-------------------
+Running x.cgl with Threads=16, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 43.09
+-------------------
+Running x.cgl with Threads=32, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 31.99
+-------------------
+Running x.cgl with Threads=64, List Size=8192, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 14.76
+-------------------
+Running x.cgl with Threads=128, List Size=8192, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec):  6.56
+-------------------
+Running x.cgl with Threads=1, List Size=8192, Workload=0 50 50, MT_CONF=0
+Executable: x.cgl
+Threads: 1
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 91.40
+-------------------
+Running x.cgl with Threads=2, List Size=8192, Workload=0 50 50, MT_CONF=0,1
+Executable: x.cgl
+Threads: 2
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 88.30
+-------------------
+Running x.cgl with Threads=4, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.cgl
+Threads: 4
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 74.63
+-------------------
+Running x.cgl with Threads=8, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.cgl
+Threads: 8
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 50.63
+-------------------
+Running x.cgl with Threads=16, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.cgl
+Threads: 16
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 33.90
+-------------------
+Running x.cgl with Threads=32, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.cgl
+Threads: 32
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 44.16
+-------------------
+Running x.cgl with Threads=64, List Size=8192, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.cgl
+Threads: 64
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 17.25
+-------------------
+Running x.cgl with Threads=128, List Size=8192, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.cgl
+Threads: 128
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec):  7.19
+-------------------
+Running x.fgl with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 234.16
+-------------------
+Running x.fgl with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 311.95
+-------------------
+Running x.fgl with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 414.33
+-------------------
+Running x.fgl with Threads=8, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 494.97
+-------------------
+Running x.fgl with Threads=16, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 210.11
+-------------------
+Running x.fgl with Threads=32, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 124.93
+-------------------
+Running x.fgl with Threads=64, List Size=1024, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec):  7.14
+-------------------
+Running x.fgl with Threads=128, List Size=1024, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec):  0.84
+-------------------
+Running x.fgl with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 392.79
+-------------------
+Running x.fgl with Threads=2, List Size=1024, Workload=80 10 10, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 241.73
+-------------------
+Running x.fgl with Threads=4, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 331.36
+-------------------
+Running x.fgl with Threads=8, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 493.49
+-------------------
+Running x.fgl with Threads=16, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 221.55
+-------------------
+Running x.fgl with Threads=32, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 262.58
+-------------------
+Running x.fgl with Threads=64, List Size=1024, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 20.50
+-------------------
+Running x.fgl with Threads=128, List Size=1024, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec):  0.75
+-------------------
+Running x.fgl with Threads=1, List Size=1024, Workload=20 40 40, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 390.06
+-------------------
+Running x.fgl with Threads=2, List Size=1024, Workload=20 40 40, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 242.17
+-------------------
+Running x.fgl with Threads=4, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 334.59
+-------------------
+Running x.fgl with Threads=8, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 495.37
+-------------------
+Running x.fgl with Threads=16, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 226.21
+-------------------
+Running x.fgl with Threads=32, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 243.14
+-------------------
+Running x.fgl with Threads=64, List Size=1024, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 21.23
+-------------------
+Running x.fgl with Threads=128, List Size=1024, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec):  1.93
+-------------------
+Running x.fgl with Threads=1, List Size=1024, Workload=0 50 50, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 390.63
+-------------------
+Running x.fgl with Threads=2, List Size=1024, Workload=0 50 50, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 241.71
+-------------------
+Running x.fgl with Threads=4, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 334.53
+-------------------
+Running x.fgl with Threads=8, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 497.83
+-------------------
+Running x.fgl with Threads=16, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 226.22
+-------------------
+Running x.fgl with Threads=32, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 242.96
+-------------------
+Running x.fgl with Threads=64, List Size=1024, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 14.74
+-------------------
+Running x.fgl with Threads=128, List Size=1024, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec):  1.11
+-------------------
+Running x.fgl with Threads=1, List Size=8192, Workload=100 0 0, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 29.31
+-------------------
+Running x.fgl with Threads=2, List Size=8192, Workload=100 0 0, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 50.51
+-------------------
+Running x.fgl with Threads=4, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 80.94
+-------------------
+Running x.fgl with Threads=8, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 160.88
+-------------------
+Running x.fgl with Threads=16, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 67.87
+-------------------
+Running x.fgl with Threads=32, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 32.14
+-------------------
+Running x.fgl with Threads=64, List Size=8192, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec):  0.73
+-------------------
+Running x.fgl with Threads=128, List Size=8192, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec):  0.19
+-------------------
+Running x.fgl with Threads=1, List Size=8192, Workload=80 10 10, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 39.23
+-------------------
+Running x.fgl with Threads=2, List Size=8192, Workload=80 10 10, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 38.17
+-------------------
+Running x.fgl with Threads=4, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 56.67
+-------------------
+Running x.fgl with Threads=8, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 86.26
+-------------------
+Running x.fgl with Threads=16, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 49.16
+-------------------
+Running x.fgl with Threads=32, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 57.10
+-------------------
+Running x.fgl with Threads=64, List Size=8192, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec):  0.95
+-------------------
+Running x.fgl with Threads=128, List Size=8192, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec):  0.25
+-------------------
+Running x.fgl with Threads=1, List Size=8192, Workload=20 40 40, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 40.73
+-------------------
+Running x.fgl with Threads=2, List Size=8192, Workload=20 40 40, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 35.51
+-------------------
+Running x.fgl with Threads=4, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 53.31
+-------------------
+Running x.fgl with Threads=8, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 82.06
+-------------------
+Running x.fgl with Threads=16, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 47.25
+-------------------
+Running x.fgl with Threads=32, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 59.01
+-------------------
+Running x.fgl with Threads=64, List Size=8192, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec):  0.48
+-------------------
+Running x.fgl with Threads=128, List Size=8192, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec):  0.20
+-------------------
+Running x.fgl with Threads=1, List Size=8192, Workload=0 50 50, MT_CONF=0
+Executable: x.fgl
+Threads: 1
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 40.81
+-------------------
+Running x.fgl with Threads=2, List Size=8192, Workload=0 50 50, MT_CONF=0,1
+Executable: x.fgl
+Threads: 2
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 35.29
+-------------------
+Running x.fgl with Threads=4, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.fgl
+Threads: 4
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 53.12
+-------------------
+Running x.fgl with Threads=8, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.fgl
+Threads: 8
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 82.27
+-------------------
+Running x.fgl with Threads=16, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.fgl
+Threads: 16
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 47.37
+-------------------
+Running x.fgl with Threads=32, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.fgl
+Threads: 32
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 59.70
+-------------------
+Running x.fgl with Threads=64, List Size=8192, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.fgl
+Threads: 64
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec):  0.77
+-------------------
+Running x.fgl with Threads=128, List Size=8192, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.fgl
+Threads: 128
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec):  0.22
+-------------------
+Running x.lazy with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1562.94
+-------------------
+Running x.lazy with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 3103.71
+-------------------
+Running x.lazy with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 5969.31
+-------------------
+Running x.lazy with Threads=8, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 11050.52
+-------------------
+Running x.lazy with Threads=16, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 22075.18
+-------------------
+Running x.lazy with Threads=32, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 44117.53
+-------------------
+Running x.lazy with Threads=64, List Size=1024, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 44165.93
+-------------------
+Running x.lazy with Threads=128, List Size=1024, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 44152.58
+-------------------
+Running x.lazy with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1904.11
+-------------------
+Running x.lazy with Threads=2, List Size=1024, Workload=80 10 10, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1797.63
+-------------------
+Running x.lazy with Threads=4, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1384.54
+-------------------
+Running x.lazy with Threads=8, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1828.86
+-------------------
+Running x.lazy with Threads=16, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1304.26
+-------------------
+Running x.lazy with Threads=32, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 6262.66
+-------------------
+Running x.lazy with Threads=64, List Size=1024, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1178.54
+-------------------
+Running x.lazy with Threads=128, List Size=1024, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 453.44
+-------------------
+Running x.lazy with Threads=1, List Size=1024, Workload=20 40 40, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1491.49
+-------------------
+Running x.lazy with Threads=2, List Size=1024, Workload=20 40 40, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1398.74
+-------------------
+Running x.lazy with Threads=4, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1265.20
+-------------------
+Running x.lazy with Threads=8, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1711.82
+-------------------
+Running x.lazy with Threads=16, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1123.12
+-------------------
+Running x.lazy with Threads=32, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 3807.72
+-------------------
+Running x.lazy with Threads=64, List Size=1024, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 283.79
+-------------------
+Running x.lazy with Threads=128, List Size=1024, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 111.89
+-------------------
+Running x.lazy with Threads=1, List Size=1024, Workload=0 50 50, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1384.16
+-------------------
+Running x.lazy with Threads=2, List Size=1024, Workload=0 50 50, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1318.20
+-------------------
+Running x.lazy with Threads=4, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1230.38
+-------------------
+Running x.lazy with Threads=8, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1672.54
+-------------------
+Running x.lazy with Threads=16, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1075.38
+-------------------
+Running x.lazy with Threads=32, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 3397.21
+-------------------
+Running x.lazy with Threads=64, List Size=1024, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 233.27
+-------------------
+Running x.lazy with Threads=128, List Size=1024, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 104.35
+-------------------
+Running x.lazy with Threads=1, List Size=8192, Workload=100 0 0, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 152.53
+-------------------
+Running x.lazy with Threads=2, List Size=8192, Workload=100 0 0, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 301.82
+-------------------
+Running x.lazy with Threads=4, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 579.39
+-------------------
+Running x.lazy with Threads=8, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1072.75
+-------------------
+Running x.lazy with Threads=16, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 2154.42
+-------------------
+Running x.lazy with Threads=32, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 3940.25
+-------------------
+Running x.lazy with Threads=64, List Size=8192, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 4312.75
+-------------------
+Running x.lazy with Threads=128, List Size=8192, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 4320.76
+-------------------
+Running x.lazy with Threads=1, List Size=8192, Workload=80 10 10, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 60.95
+-------------------
+Running x.lazy with Threads=2, List Size=8192, Workload=80 10 10, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 114.70
+-------------------
+Running x.lazy with Threads=4, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 216.38
+-------------------
+Running x.lazy with Threads=8, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 318.89
+-------------------
+Running x.lazy with Threads=16, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 486.29
+-------------------
+Running x.lazy with Threads=32, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 841.40
+-------------------
+Running x.lazy with Threads=64, List Size=8192, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 668.24
+-------------------
+Running x.lazy with Threads=128, List Size=8192, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 460.44
+-------------------
+Running x.lazy with Threads=1, List Size=8192, Workload=20 40 40, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 63.55
+-------------------
+Running x.lazy with Threads=2, List Size=8192, Workload=20 40 40, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 123.62
+-------------------
+Running x.lazy with Threads=4, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 231.73
+-------------------
+Running x.lazy with Threads=8, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 340.70
+-------------------
+Running x.lazy with Threads=16, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 501.74
+-------------------
+Running x.lazy with Threads=32, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 803.87
+-------------------
+Running x.lazy with Threads=64, List Size=8192, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 610.41
+-------------------
+Running x.lazy with Threads=128, List Size=8192, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 387.78
+-------------------
+Running x.lazy with Threads=1, List Size=8192, Workload=0 50 50, MT_CONF=0
+Executable: x.lazy
+Threads: 1
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 65.47
+-------------------
+Running x.lazy with Threads=2, List Size=8192, Workload=0 50 50, MT_CONF=0,1
+Executable: x.lazy
+Threads: 2
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 126.98
+-------------------
+Running x.lazy with Threads=4, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.lazy
+Threads: 4
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 236.69
+-------------------
+Running x.lazy with Threads=8, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.lazy
+Threads: 8
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 347.22
+-------------------
+Running x.lazy with Threads=16, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.lazy
+Threads: 16
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 487.90
+-------------------
+Running x.lazy with Threads=32, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.lazy
+Threads: 32
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 782.48
+-------------------
+Running x.lazy with Threads=64, List Size=8192, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.lazy
+Threads: 64
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 567.71
+-------------------
+Running x.lazy with Threads=128, List Size=8192, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.lazy
+Threads: 128
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 335.18
+-------------------
+Running x.nb with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 735.03
+-------------------
+Running x.nb with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1458.26
+-------------------
+Running x.nb with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 2805.69
+-------------------
+Running x.nb with Threads=8, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 5193.07
+-------------------
+Running x.nb with Threads=16, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 10289.69
+-------------------
+Running x.nb with Threads=32, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 20187.60
+-------------------
+Running x.nb with Threads=64, List Size=1024, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 20728.17
+-------------------
+Running x.nb with Threads=128, List Size=1024, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 20744.16
+-------------------
+Running x.nb with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1113.04
+-------------------
+Running x.nb with Threads=2, List Size=1024, Workload=80 10 10, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1469.01
+-------------------
+Running x.nb with Threads=4, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1398.37
+-------------------
+Running x.nb with Threads=8, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1957.42
+-------------------
+Running x.nb with Threads=16, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1483.30
+-------------------
+Running x.nb with Threads=32, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 6035.61
+-------------------
+Running x.nb with Threads=64, List Size=1024, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 4028.45
+-------------------
+Running x.nb with Threads=128, List Size=1024, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 5323.72
+-------------------
+Running x.nb with Threads=1, List Size=1024, Workload=20 40 40, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1299.72
+-------------------
+Running x.nb with Threads=2, List Size=1024, Workload=20 40 40, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1518.35
+-------------------
+Running x.nb with Threads=4, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1400.39
+-------------------
+Running x.nb with Threads=8, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1908.99
+-------------------
+Running x.nb with Threads=16, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1308.86
+-------------------
+Running x.nb with Threads=32, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 4882.94
+-------------------
+Running x.nb with Threads=64, List Size=1024, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 2595.13
+-------------------
+Running x.nb with Threads=128, List Size=1024, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 2930.21
+-------------------
+Running x.nb with Threads=1, List Size=1024, Workload=0 50 50, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1366.52
+-------------------
+Running x.nb with Threads=2, List Size=1024, Workload=0 50 50, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1545.71
+-------------------
+Running x.nb with Threads=4, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1411.22
+-------------------
+Running x.nb with Threads=8, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1902.59
+-------------------
+Running x.nb with Threads=16, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1275.59
+-------------------
+Running x.nb with Threads=32, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 4629.96
+-------------------
+Running x.nb with Threads=64, List Size=1024, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 2464.64
+-------------------
+Running x.nb with Threads=128, List Size=1024, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 2623.61
+-------------------
+Running x.nb with Threads=1, List Size=8192, Workload=100 0 0, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 91.34
+-------------------
+Running x.nb with Threads=2, List Size=8192, Workload=100 0 0, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 176.41
+-------------------
+Running x.nb with Threads=4, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 345.23
+-------------------
+Running x.nb with Threads=8, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 656.34
+-------------------
+Running x.nb with Threads=16, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1295.03
+-------------------
+Running x.nb with Threads=32, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 2625.02
+-------------------
+Running x.nb with Threads=64, List Size=8192, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 2624.44
+-------------------
+Running x.nb with Threads=128, List Size=8192, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 2625.06
+-------------------
+Running x.nb with Threads=1, List Size=8192, Workload=80 10 10, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 64.02
+-------------------
+Running x.nb with Threads=2, List Size=8192, Workload=80 10 10, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 123.98
+-------------------
+Running x.nb with Threads=4, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 236.95
+-------------------
+Running x.nb with Threads=8, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 331.18
+-------------------
+Running x.nb with Threads=16, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 497.40
+-------------------
+Running x.nb with Threads=32, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 845.14
+-------------------
+Running x.nb with Threads=64, List Size=8192, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 641.00
+-------------------
+Running x.nb with Threads=128, List Size=8192, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 449.64
+-------------------
+Running x.nb with Threads=1, List Size=8192, Workload=20 40 40, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 69.16
+-------------------
+Running x.nb with Threads=2, List Size=8192, Workload=20 40 40, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 133.90
+-------------------
+Running x.nb with Threads=4, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 254.35
+-------------------
+Running x.nb with Threads=8, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 368.99
+-------------------
+Running x.nb with Threads=16, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 564.24
+-------------------
+Running x.nb with Threads=32, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 901.38
+-------------------
+Running x.nb with Threads=64, List Size=8192, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 645.39
+-------------------
+Running x.nb with Threads=128, List Size=8192, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 522.66
+-------------------
+Running x.nb with Threads=1, List Size=8192, Workload=0 50 50, MT_CONF=0
+Executable: x.nb
+Threads: 1
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 69.97
+-------------------
+Running x.nb with Threads=2, List Size=8192, Workload=0 50 50, MT_CONF=0,1
+Executable: x.nb
+Threads: 2
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 137.44
+-------------------
+Running x.nb with Threads=4, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.nb
+Threads: 4
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 261.28
+-------------------
+Running x.nb with Threads=8, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.nb
+Threads: 8
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 389.13
+-------------------
+Running x.nb with Threads=16, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.nb
+Threads: 16
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 544.04
+-------------------
+Running x.nb with Threads=32, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.nb
+Threads: 32
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 915.96
+-------------------
+Running x.nb with Threads=64, List Size=8192, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.nb
+Threads: 64
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 719.70
+-------------------
+Running x.nb with Threads=128, List Size=8192, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.nb
+Threads: 128
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 467.06
+-------------------
+Running x.opt with Threads=1, List Size=1024, Workload=100 0 0, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 642.97
+-------------------
+Running x.opt with Threads=2, List Size=1024, Workload=100 0 0, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 685.09
+-------------------
+Running x.opt with Threads=4, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 782.71
+-------------------
+Running x.opt with Threads=8, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 706.42
+-------------------
+Running x.opt with Threads=16, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 338.23
+-------------------
+Running x.opt with Threads=32, List Size=1024, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 181.52
+-------------------
+Running x.opt with Threads=64, List Size=1024, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 115.56
+-------------------
+Running x.opt with Threads=128, List Size=1024, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 1024
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 67.44
+-------------------
+Running x.opt with Threads=1, List Size=1024, Workload=80 10 10, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 891.73
+-------------------
+Running x.opt with Threads=2, List Size=1024, Workload=80 10 10, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 796.42
+-------------------
+Running x.opt with Threads=4, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 621.58
+-------------------
+Running x.opt with Threads=8, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 820.01
+-------------------
+Running x.opt with Threads=16, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 507.57
+-------------------
+Running x.opt with Threads=32, List Size=1024, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 1859.90
+-------------------
+Running x.opt with Threads=64, List Size=1024, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 216.84
+-------------------
+Running x.opt with Threads=128, List Size=1024, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 1024
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 84.51
+-------------------
+Running x.opt with Threads=1, List Size=1024, Workload=20 40 40, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 881.14
+-------------------
+Running x.opt with Threads=2, List Size=1024, Workload=20 40 40, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 807.40
+-------------------
+Running x.opt with Threads=4, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 657.92
+-------------------
+Running x.opt with Threads=8, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 864.95
+-------------------
+Running x.opt with Threads=16, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 542.10
+-------------------
+Running x.opt with Threads=32, List Size=1024, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1718.54
+-------------------
+Running x.opt with Threads=64, List Size=1024, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 196.00
+-------------------
+Running x.opt with Threads=128, List Size=1024, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 1024
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 82.46
+-------------------
+Running x.opt with Threads=1, List Size=1024, Workload=0 50 50, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 879.33
+-------------------
+Running x.opt with Threads=2, List Size=1024, Workload=0 50 50, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 809.70
+-------------------
+Running x.opt with Threads=4, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 664.20
+-------------------
+Running x.opt with Threads=8, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 869.94
+-------------------
+Running x.opt with Threads=16, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 541.40
+-------------------
+Running x.opt with Threads=32, List Size=1024, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1673.85
+-------------------
+Running x.opt with Threads=64, List Size=1024, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 190.86
+-------------------
+Running x.opt with Threads=128, List Size=1024, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 1024
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 88.84
+-------------------
+Running x.opt with Threads=1, List Size=8192, Workload=100 0 0, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 71.94
+-------------------
+Running x.opt with Threads=2, List Size=8192, Workload=100 0 0, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 95.01
+-------------------
+Running x.opt with Threads=4, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 130.86
+-------------------
+Running x.opt with Threads=8, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 131.22
+-------------------
+Running x.opt with Threads=16, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 95.23
+-------------------
+Running x.opt with Threads=32, List Size=8192, Workload=100 0 0, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 90.09
+-------------------
+Running x.opt with Threads=64, List Size=8192, Workload=100 0 0, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 53.18
+-------------------
+Running x.opt with Threads=128, List Size=8192, Workload=100 0 0, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 8192
+Workload: 100-0-0
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 30.69
+-------------------
+Running x.opt with Threads=1, List Size=8192, Workload=80 10 10, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 32.95
+-------------------
+Running x.opt with Threads=2, List Size=8192, Workload=80 10 10, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 60.72
+-------------------
+Running x.opt with Threads=4, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 113.09
+-------------------
+Running x.opt with Threads=8, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 160.03
+-------------------
+Running x.opt with Threads=16, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 229.35
+-------------------
+Running x.opt with Threads=32, List Size=8192, Workload=80 10 10, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 373.44
+-------------------
+Running x.opt with Threads=64, List Size=8192, Workload=80 10 10, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 220.17
+-------------------
+Running x.opt with Threads=128, List Size=8192, Workload=80 10 10, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 8192
+Workload: 80-10-10
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 132.80
+-------------------
+Running x.opt with Threads=1, List Size=8192, Workload=20 40 40, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 30.27
+-------------------
+Running x.opt with Threads=2, List Size=8192, Workload=20 40 40, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 58.98
+-------------------
+Running x.opt with Threads=4, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 109.74
+-------------------
+Running x.opt with Threads=8, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 161.66
+-------------------
+Running x.opt with Threads=16, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 235.19
+-------------------
+Running x.opt with Threads=32, List Size=8192, Workload=20 40 40, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 375.78
+-------------------
+Running x.opt with Threads=64, List Size=8192, Workload=20 40 40, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 233.47
+-------------------
+Running x.opt with Threads=128, List Size=8192, Workload=20 40 40, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 8192
+Workload: 20-40-40
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 133.59
+-------------------
+Running x.opt with Threads=1, List Size=8192, Workload=0 50 50, MT_CONF=0
+Executable: x.opt
+Threads: 1
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 30.52
+-------------------
+Running x.opt with Threads=2, List Size=8192, Workload=0 50 50, MT_CONF=0,1
+Executable: x.opt
+Threads: 2
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 59.67
+-------------------
+Running x.opt with Threads=4, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3
+Executable: x.opt
+Threads: 4
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 111.56
+-------------------
+Running x.opt with Threads=8, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7
+Executable: x.opt
+Threads: 8
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 162.20
+-------------------
+Running x.opt with Threads=16, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Executable: x.opt
+Threads: 16
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 235.51
+-------------------
+Running x.opt with Threads=32, List Size=8192, Workload=0 50 50, MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Executable: x.opt
+Threads: 32
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 376.99
+-------------------
+Running x.opt with Threads=64, List Size=8192, Workload=0 50 50, MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Executable: x.opt
+Threads: 64
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31
+Nthreads: 64  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 230.31
+-------------------
+Running x.opt with Threads=128, List Size=8192, Workload=0 50 50, MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Executable: x.opt
+Threads: 128
+List Size: 8192
+Workload: 0-50-50
+Throughput: MT_CONF=0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11,12,12,12,12,13,13,13,13,14,14,14,14,15,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,19,19,19,19,20,20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,25,25,25,25,26,26,26,26,27,27,27,27,28,28,28,28,29,29,29,29,30,30,30,30,31,31,31,31
+Nthreads: 128  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 132.86
+-------------------

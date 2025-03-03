@@ -1,0 +1,2 @@
+mpicc -Wall -Wextra -Wno-unused -O3 -c Jacobi_MPI_no_conv.c -o mpi_jacobi_no_conv.o  # <---- TAB before mpicc
+mpicc -Wall -Wextra -Wno-unused -O3 mpi_jacobi_no_conv.o utils.o -o mpi_jacobi_no_conv   # <---- TAB before mpicc

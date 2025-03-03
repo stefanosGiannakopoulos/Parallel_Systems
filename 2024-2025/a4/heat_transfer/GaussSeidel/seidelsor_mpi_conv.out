@@ -1,0 +1,6 @@
+Iteration 1 - 64 MPI processes
+GaussSeidelSOR X 512 Y 512 Px 8 Py 8 Iter 1501 ComputationTime 0.073558 TotalTime 0.583544 midpoint 2.826997
+Iteration 2 - 64 MPI processes
+GaussSeidelSOR X 512 Y 512 Px 8 Py 8 Iter 1501 ComputationTime 0.071547 TotalTime 0.582495 midpoint 2.826997
+Iteration 3 - 64 MPI processes
+GaussSeidelSOR X 512 Y 512 Px 8 Py 8 Iter 1501 ComputationTime 0.071764 TotalTime 0.568160 midpoint 2.826997

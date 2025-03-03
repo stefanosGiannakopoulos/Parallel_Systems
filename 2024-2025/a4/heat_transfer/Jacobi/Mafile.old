@@ -1,0 +1,26 @@
+.KEEP_STATE:
+
+MPICC = mpicc
+
+CFLAGS = -Wall -Wextra -Wno-unused -O3
+
+LDFLAGS = 
+
+H_FILES = utils.h
+
+COMM_SRC = utils.c
+
+all: mpi_jacobi
+
+mpi_jacobi: mpi_jacobi.o utils.o
+	$(MPICC) $(CFLAGS) $^ -o $@ $(LDFLAGS)  # <---- TAB before $(MPICC)
+
+mpi_jacobi.o: Jacobi_MPI.c
+	$(MPICC) $(CFLAGS) -c $< -o $@  # <---- TAB before $(MPICC)
+
+utils.o: utils.c
+	$(MPICC) $(CFLAGS) -c $< -o $@  # <---- TAB before $(MPICC)
+
+clean: 
+	rm -rf *.o mpi_jacobi  # <---- TAB before rm
+

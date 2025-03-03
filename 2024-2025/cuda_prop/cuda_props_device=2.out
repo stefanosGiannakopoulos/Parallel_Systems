@@ -1,0 +1,18 @@
+Number of CUDA devices: 1
+
+Device 0: "NVIDIA GeForce GTX 1060 6GB"
+  Compute capability: 6.1
+  Total global memory: 6360203264 bytes
+  Shared memory per block: 49152 bytes
+  Registers per block: 65536
+  Warp size: 32
+  Max threads per block: 1024
+  Max threads dimensions: [1024, 1024, 64]
+  Max grid size: [2147483647, 65535, 65535]
+  Clock rate: 1809.50 MHz
+  Memory clock rate: 4004.00 MHz
+  Memory bus width: 192 bits
+  Multiprocessor count: 10
+  L2 cache size: 1572864 bytes
+  Concurrent kernels: Yes
+  ECC enabled: No

@@ -1,0 +1,17 @@
+Executable, List Size, Threads, Workload, Throughput
+x.serial, 1024, 1, 100-0-0, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 1567.09
+x.serial, 1024, 1, 80-10-10, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 2052.58
+x.serial, 1024, 1, 20-40-40, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 1612.64
+x.serial, 1024, 1, 0-50-50, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 1515.39
+x.serial, 8192, 1, 100-0-0, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 100/0/0  Throughput(Kops/sec): 152.73
+x.serial, 8192, 1, 80-10-10, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 80/10/10  Throughput(Kops/sec): 74.98
+x.serial, 8192, 1, 20-40-40, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 79.73
+x.serial, 8192, 1, 0-50-50, MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 0/50/50  Throughput(Kops/sec): 91.33

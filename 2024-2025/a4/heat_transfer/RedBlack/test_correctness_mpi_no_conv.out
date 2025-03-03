@@ -1,0 +1,2 @@
+RedBlackSOR X 256 Y 256 Iter 600 Time 0.278201 midpoint 1.418989
+GaussSeidelSOR X 256 Y 256 Px 8 Py 4 Iter 601 ComputationTime 0.009788 TotalTime 0.194284 midpoint 1.418989

@@ -1,0 +1,45 @@
+Iteration: -, Size: 2048, Threads: 1
+Jacobi X 2048 Y 2048 Px 1 Py 1 Iter 256 ComputationTime 8.417390 TotalTime 8.417718 midpoint 0.000000
+Iteration: -, Size: 2048, Threads: 2
+Jacobi X 2048 Y 2048 Px 1 Py 2 Iter 256 ComputationTime 4.217100 TotalTime 4.348465 midpoint 0.000000
+Iteration: -, Size: 2048, Threads: 4
+Jacobi X 2048 Y 2048 Px 2 Py 2 Iter 256 ComputationTime 2.110306 TotalTime 2.218470 midpoint 0.000000
+Iteration: -, Size: 2048, Threads: 8
+Jacobi X 2048 Y 2048 Px 2 Py 4 Iter 256 ComputationTime 1.059044 TotalTime 1.172866 midpoint 0.000000
+Iteration: -, Size: 2048, Threads: 16
+Jacobi X 2048 Y 2048 Px 4 Py 4 Iter 256 ComputationTime 0.838982 TotalTime 0.894202 midpoint 0.000000
+Iteration: -, Size: 2048, Threads: 32
+Jacobi X 2048 Y 2048 Px 4 Py 8 Iter 256 ComputationTime 0.351905 TotalTime 0.412548 midpoint 0.000000
+Iteration: -, Size: 2048, Threads: 64
+Jacobi X 2048 Y 2048 Px 8 Py 8 Iter 256 ComputationTime 0.058925 TotalTime 0.150370 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 1
+Jacobi X 4096 Y 4096 Px 1 Py 1 Iter 256 ComputationTime 33.653471 TotalTime 33.653928 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 2
+Jacobi X 4096 Y 4096 Px 1 Py 2 Iter 256 ComputationTime 16.869564 TotalTime 17.077997 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 4
+Jacobi X 4096 Y 4096 Px 2 Py 2 Iter 256 ComputationTime 8.441363 TotalTime 8.588615 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 8
+Jacobi X 4096 Y 4096 Px 2 Py 4 Iter 256 ComputationTime 4.338943 TotalTime 4.428169 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 16
+Jacobi X 4096 Y 4096 Px 4 Py 4 Iter 256 ComputationTime 3.707014 TotalTime 3.821029 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 32
+Jacobi X 4096 Y 4096 Px 4 Py 8 Iter 256 ComputationTime 3.669856 TotalTime 3.790738 midpoint 0.000000
+Iteration: -, Size: 4096, Threads: 64
+Jacobi X 4096 Y 4096 Px 8 Py 8 Iter 256 ComputationTime 3.311806 TotalTime 3.490804 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 1
+Jacobi X 6144 Y 6144 Px 1 Py 1 Iter 256 ComputationTime 75.758468 TotalTime 75.758941 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 2
+Jacobi X 6144 Y 6144 Px 1 Py 2 Iter 256 ComputationTime 37.982608 TotalTime 38.251806 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 4
+Jacobi X 6144 Y 6144 Px 2 Py 2 Iter 256 ComputationTime 18.979389 TotalTime 19.185997 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 8
+Jacobi X 6144 Y 6144 Px 2 Py 4 Iter 256 ComputationTime 9.705209 TotalTime 9.815007 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 16
+Jacobi X 6144 Y 6144 Px 4 Py 4 Iter 256 ComputationTime 8.418103 TotalTime 8.568167 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 32
+Jacobi X 6144 Y 6144 Px 4 Py 8 Iter 256 ComputationTime 8.415088 TotalTime 8.589784 midpoint 0.000000
+Iteration: -, Size: 6144, Threads: 64
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 22555 on node clone10 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+4 total processes killed (some possibly by mpirun during cleanup)

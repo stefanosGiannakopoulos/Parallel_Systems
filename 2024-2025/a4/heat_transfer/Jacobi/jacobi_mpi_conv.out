@@ -1,0 +1,6 @@
+Iteration 1 - 64 MPI processes
+Jacobi X 512 Y 512 Px 8 Py 8 Iter 236001 ComputationTime 3.095257 TotalTime 40.984062 midpoint 2.774119
+Iteration 2 - 64 MPI processes
+Jacobi X 512 Y 512 Px 8 Py 8 Iter 236001 ComputationTime 3.100634 TotalTime 41.197288 midpoint 2.774119
+Iteration 3 - 64 MPI processes
+Jacobi X 512 Y 512 Px 8 Py 8 Iter 236001 ComputationTime 3.108066 TotalTime 41.146342 midpoint 2.774119

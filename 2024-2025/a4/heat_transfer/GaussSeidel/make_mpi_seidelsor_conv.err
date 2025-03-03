@@ -1,0 +1,8 @@
+mpi_gauss_seidel_conv.c: In function 'main':
+mpi_gauss_seidel_conv.c:583:5: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MPI_Gatherv(*u_current+local[1]+3,1,local_block,*U,scattercounts,scatteroffset,global_block,0,CART_COMM);
+     ^
+mpi_gauss_seidel_conv.c:583:5: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+mpi_gauss_seidel_conv.c:155:9: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         free2d(U);
+         ^

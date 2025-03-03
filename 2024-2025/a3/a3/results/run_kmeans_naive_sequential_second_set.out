@@ -1,0 +1,250 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64
+
+
+|-------------Sequential Kmeans-------------|
+
+t_alloc: 180.995941 ms
+
+nloops = 10  : total = 154679.615974 ms
+	-> t_loop_avg = 15467.961597 ms
+	-> t_loop_min = 15379.344940 ms
+	-> t_loop_max = 15519.134045 ms
+
+|-------------------------------------------|
+
+Final cluster centers:
+clusters[0] =   0.61   8.12 
+clusters[1] =   0.56   2.05 
+clusters[2] =   0.56   4.58 
+clusters[3] =   0.63   6.89 
+clusters[4] =   0.77   9.43 
+clusters[5] =   0.66   0.69 
+clusters[6] =   0.75   3.34 
+clusters[7] =   0.85   5.76 
+clusters[8] =   1.72   2.01 
+clusters[9] =   1.82   4.56 
+clusters[10] =   1.93   7.14 
+clusters[11] =   1.78   8.52 
+clusters[12] =   1.96   0.67 
+clusters[13] =   2.19   3.30 
+clusters[14] =   2.37   5.85 
+clusters[15] =   2.47   9.48 
+clusters[16] =   2.96   2.01 
+clusters[17] =   3.13   4.69 
+clusters[18] =   3.34   6.94 
+clusters[19] =   3.00   8.20 
+clusters[20] =   3.25   0.67 
+clusters[21] =   3.52   3.34 
+clusters[22] =   3.86   9.38 
+clusters[23] =   4.21   1.96 
+clusters[24] =   4.40   4.59 
+clusters[25] =   3.95   5.88 
+clusters[26] =   4.25   8.14 
+clusters[27] =   4.53   0.65 
+clusters[28] =   4.84   3.30 
+clusters[29] =   4.82   7.04 
+clusters[30] =   5.11   9.41 
+clusters[31] =   5.45   2.08 
+clusters[32] =   5.68   4.54 
+clusters[33] =   5.25   5.81 
+clusters[34] =   5.51   8.26 
+clusters[35] =   5.79   0.71 
+clusters[36] =   6.10   7.04 
+clusters[37] =   6.33   9.42 
+clusters[38] =   6.67   2.03 
+clusters[39] =   6.20   3.37 
+clusters[40] =   6.44   5.78 
+clusters[41] =   6.75   8.25 
+clusters[42] =   7.05   0.67 
+clusters[43] =   7.02   4.61 
+clusters[44] =   7.29   7.10 
+clusters[45] =   7.47   9.40 
+clusters[46] =   7.94   1.94 
+clusters[47] =   7.40   3.31 
+clusters[48] =   7.58   5.89 
+clusters[49] =   8.00   8.25 
+clusters[50] =   8.24   4.55 
+clusters[51] =   8.44   7.10 
+clusters[52] =   8.55   9.38 
+clusters[53] =   8.30   0.67 
+clusters[54] =   8.50   3.20 
+clusters[55] =   8.61   5.83 
+clusters[56] =   9.33   8.21 
+clusters[57] =   9.32   2.03 
+clusters[58] =   9.41   4.63 
+clusters[59] =   9.50   7.04 
+clusters[60] =   9.54   9.39 
+clusters[61] =   9.45   0.69 
+clusters[62] =   9.51   3.39 
+clusters[63] =   9.56   5.84 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 32
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 182.835817 ms
+
+t_alloc_gpu: 825.438976 ms
+
+t_get_gpu: 303.760767 ms
+
+nloops = 10  : total = 4784.919977 ms
+	-> t_loop_avg = 478.491998 ms
+	-> t_loop_min = 336.886883 ms
+	-> t_loop_max = 808.723927 ms
+	-> t_cpu_avg = 337.721086 ms
+	-> t_gpu_avg = 38.615346 ms
+	-> t_transfers_avg = 102.149248 ms
+
+|-------------------------------------------|
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 48
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 180.433989 ms
+
+t_alloc_gpu: 887.032032 ms
+
+t_get_gpu: 306.193829 ms
+
+nloops = 10  : total = 4704.524040 ms
+	-> t_loop_avg = 470.452404 ms
+	-> t_loop_min = 328.063011 ms
+	-> t_loop_max = 797.345161 ms
+	-> t_cpu_avg = 336.946917 ms
+	-> t_gpu_avg = 33.931112 ms
+	-> t_transfers_avg = 99.567151 ms
+
+|-------------------------------------------|
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 64
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 181.549072 ms
+
+t_alloc_gpu: 809.971094 ms
+
+t_get_gpu: 301.885843 ms
+
+nloops = 10  : total = 4686.854124 ms
+	-> t_loop_avg = 468.685412 ms
+	-> t_loop_min = 325.518131 ms
+	-> t_loop_max = 718.450069 ms
+	-> t_cpu_avg = 344.920278 ms
+	-> t_gpu_avg = 29.315424 ms
+	-> t_transfers_avg = 94.443178 ms
+
+|-------------------------------------------|
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 128
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 181.472063 ms
+
+t_alloc_gpu: 855.127096 ms
+
+t_get_gpu: 314.124107 ms
+
+nloops = 10  : total = 4682.440996 ms
+	-> t_loop_avg = 468.244100 ms
+	-> t_loop_min = 328.270912 ms
+	-> t_loop_max = 730.303049 ms
+	-> t_cpu_avg = 337.181401 ms
+	-> t_gpu_avg = 29.090190 ms
+	-> t_transfers_avg = 101.965952 ms
+
+|-------------------------------------------|
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 238
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 182.327032 ms
+
+t_alloc_gpu: 808.466911 ms
+
+t_get_gpu: 301.689148 ms
+
+nloops = 10  : total = 4697.320938 ms
+	-> t_loop_avg = 469.732094 ms
+	-> t_loop_min = 329.788923 ms
+	-> t_loop_max = 733.551979 ms
+	-> t_cpu_avg = 341.582084 ms
+	-> t_gpu_avg = 30.537820 ms
+	-> t_transfers_avg = 97.605658 ms
+
+|-------------------------------------------|
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 512
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 180.807114 ms
+
+t_alloc_gpu: 798.206091 ms
+
+t_get_gpu: 300.962925 ms
+
+nloops = 10  : total = 4672.739029 ms
+	-> t_loop_avg = 467.273903 ms
+	-> t_loop_min = 323.712111 ms
+	-> t_loop_max = 713.264942 ms
+	-> t_cpu_avg = 344.781017 ms
+	-> t_gpu_avg = 29.043460 ms
+	-> t_transfers_avg = 93.443108 ms
+
+|-------------------------------------------|
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 1024.00 MB    numObjs = 67108864    numCoords = 2    numClusters = 64, block_size = 1024
+
+
+|-------------Naive GPU Kmeans--------------|
+
+t_alloc: 180.592060 ms
+
+t_alloc_gpu: 799.324036 ms
+
+t_get_gpu: 300.546885 ms
+
+nloops = 10  : total = 4648.993969 ms
+	-> t_loop_avg = 464.899397 ms
+	-> t_loop_min = 321.019888 ms
+	-> t_loop_max = 699.842930 ms
+	-> t_cpu_avg = 349.508476 ms
+	-> t_gpu_avg = 29.184318 ms
+	-> t_transfers_avg = 86.198545 ms
+
+|-------------------------------------------|
+

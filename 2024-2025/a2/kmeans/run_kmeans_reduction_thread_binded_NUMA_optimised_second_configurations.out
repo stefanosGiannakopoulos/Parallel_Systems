@@ -1,0 +1,133 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 1)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  5.3603s)  (per loop =  0.5360s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 2)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  2.6686s)  (per loop =  0.2669s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 4)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  1.3850s)  (per loop =  0.1385s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 8)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  0.7615s)  (per loop =  0.0761s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 16)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  0.4101s)  (per loop =  0.0410s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 32)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  0.2359s)  (per loop =  0.0236s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dataset_size = 256.00 MB    numObjs = 33554432    numCoords = 1    numClusters = 4
+Initial cluster centers:
+clusters[0] =   0.00
+clusters[1] =   2.22
+clusters[2] =   4.43
+clusters[3] =   6.66
+
+OpenMP Kmeans - NUMA-Aware	(number of threads: 64)
+	completed loop 1	completed loop 2	completed loop 3	completed loop 4	completed loop 5	completed loop 6	completed loop 7	completed loop 8	completed loop 9	completed loop 10
+        nloops =  10   (total =  0.2476s)  (per loop =  0.0248s)
+
+Final cluster centers:
+clusters[0] =   0.76 
+clusters[1] =   2.52 
+clusters[2] =   4.93 
+clusters[3] =   8.14 

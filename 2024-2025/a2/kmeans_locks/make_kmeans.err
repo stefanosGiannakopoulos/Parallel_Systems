@@ -1,0 +1,40 @@
+locks/nosync_lock.c: In function 'lock_init':
+locks/nosync_lock.c:10:23: warning: unused parameter 'nthreads' [-Wunused-parameter]
+ lock_t *lock_init(int nthreads)
+                       ^
+locks/nosync_lock.c: In function 'lock_free':
+locks/nosync_lock.c:17:24: warning: unused parameter 'lock' [-Wunused-parameter]
+ void lock_free(lock_t *lock)
+                        ^
+locks/nosync_lock.c: In function 'lock_acquire':
+locks/nosync_lock.c:22:27: warning: unused parameter 'lock' [-Wunused-parameter]
+ void lock_acquire(lock_t *lock)
+                           ^
+locks/nosync_lock.c: In function 'lock_release':
+locks/nosync_lock.c:27:27: warning: unused parameter 'lock' [-Wunused-parameter]
+ void lock_release(lock_t *lock)
+                           ^
+locks/pthread_mutex_lock.c: In function 'lock_init':
+locks/pthread_mutex_lock.c:11:23: warning: unused parameter 'nthreads' [-Wunused-parameter]
+ lock_t *lock_init(int nthreads)
+                       ^
+locks/pthread_spin_lock.c: In function 'lock_init':
+locks/pthread_spin_lock.c:11:23: warning: unused parameter 'nthreads' [-Wunused-parameter]
+ lock_t *lock_init(int nthreads)
+                       ^
+locks/tas_lock.c: In function 'lock_init':
+locks/tas_lock.c:14:23: warning: unused parameter 'nthreads' [-Wunused-parameter]
+ lock_t *lock_init(int nthreads)
+                       ^
+locks/ttas_lock.c: In function 'lock_init':
+locks/ttas_lock.c:14:23: warning: unused parameter 'nthreads' [-Wunused-parameter]
+ lock_t *lock_init(int nthreads)
+                       ^
+locks/clh_lock.c: In function 'lock_init':
+locks/clh_lock.c:28:23: warning: unused parameter 'nthreads' [-Wunused-parameter]
+ lock_t *lock_init(int nthreads)
+                       ^
+locks/clh_lock.c: In function 'lock_release':
+locks/clh_lock.c:64:27: warning: unused parameter 'lock' [-Wunused-parameter]
+ void lock_release(lock_t *lock)
+                           ^

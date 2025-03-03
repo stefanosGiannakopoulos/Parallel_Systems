@@ -1,0 +1,26 @@
+.KEEP_STATE:
+
+MPICC = mpicc
+
+CFLAGS = -Wall -Wextra -Wno-unused -O3
+
+LDFLAGS = -lm
+
+H_FILES = utils.h
+
+COMM_SRC = utils.c
+
+all: mpi_redblack_no_conv
+
+mpi_redblack_no_conv: mpi_redblack_no_conv.o utils.o
+	$(MPICC) $(CFLAGS) $^ -o $@ $(LDFLAGS)  # <---- TAB before $(MPICC)
+
+mpi_redblack_no_conv.o: mpi_redblack_no_conv.c
+	$(MPICC) $(CFLAGS) -c $< -o $@  # <---- TAB before $(MPICC)
+
+utils.o: utils.c
+	$(MPICC) $(CFLAGS) -c $< -o $@  # <---- TAB before $(MPICC)
+
+clean: 
+	rm -rf *.o mpi_redblack_no_conv  # <---- TAB before rm
+

@@ -1,0 +1,19 @@
+rm -rf *.o -rf ObjectDir/*.o kmeans_seq kmeans_cuda_naive kmeans_cuda_transpose kmeans_cuda_shared kmeans_cuda_all_gpu kmeans_cuda_all_gpu_delta_reduction
+g++ -O3 -Ihelper_functions  -c seq_kmeans.c -o ObjectDir/seq_kmeans.o
+g++ -O3 -Ihelper_functions  -c main_sec.c -o ObjectDir/main_sec.o
+g++ -O3 -Ihelper_functions  -c helper_functions/file_io.c -o ObjectDir/file_io.o
+g++ -O3 -Ihelper_functions  -c helper_functions/util.c -o ObjectDir/util.o
+g++ -O3 -Ihelper_functions  ObjectDir/seq_kmeans.o ObjectDir/main_sec.o ObjectDir/file_io.o ObjectDir/util.o -o kmeans_seq 
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_naive.cu -o ObjectDir/cuda_kmeans_naive.o
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c main_gpu.cu -o ObjectDir/main_gpu.o
+g++ -O3 -Ihelper_functions  -c helper_functions/error.c -o ObjectDir/error.o
+g++ -O3 -Ihelper_functions  -c helper_functions/alloc.c -o ObjectDir/alloc.o
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  ObjectDir/cuda_kmeans_naive.o ObjectDir/main_gpu.o ObjectDir/file_io.o ObjectDir/util.o ObjectDir/error.o ObjectDir/alloc.o ObjectDir/seq_kmeans.o -o kmeans_cuda_naive  
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_transpose.cu -o ObjectDir/cuda_kmeans_transpose.o
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  ObjectDir/cuda_kmeans_transpose.o ObjectDir/main_gpu.o ObjectDir/file_io.o ObjectDir/util.o ObjectDir/error.o ObjectDir/alloc.o ObjectDir/seq_kmeans.o -o kmeans_cuda_transpose  
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_shared.cu -o ObjectDir/cuda_kmeans_shared.o
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  ObjectDir/cuda_kmeans_shared.o ObjectDir/main_gpu.o ObjectDir/file_io.o ObjectDir/util.o ObjectDir/error.o ObjectDir/alloc.o ObjectDir/seq_kmeans.o -o kmeans_cuda_shared  
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_all_gpu.cu -o ObjectDir/cuda_kmeans_all_gpu.o
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  ObjectDir/cuda_kmeans_all_gpu.o ObjectDir/main_gpu.o ObjectDir/file_io.o ObjectDir/util.o ObjectDir/error.o ObjectDir/alloc.o ObjectDir/seq_kmeans.o -o kmeans_cuda_all_gpu  
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_all_gpu_delta_reduction.cu -o ObjectDir/cuda_kmeans_all_gpu_delta_reduction.o
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  ObjectDir/cuda_kmeans_all_gpu_delta_reduction.o ObjectDir/main_gpu.o ObjectDir/file_io.o ObjectDir/util.o ObjectDir/error.o ObjectDir/alloc.o ObjectDir/seq_kmeans.o -o kmeans_cuda_all_gpu_delta_reduction  
